@@ -1,12 +1,12 @@
 # What you'll need for dev-work
  1. node and yarn installed (use LTS/12.xx)
- 2. xcode setup
- 3. android studio setup
+ 2. xcode setup with deps
+ 3. android studio setup (SDK VER 29, android Q/P for emulators)
 
 # Install Your Dependencies
     yarn
 
-# To run this on an iOs (emulator)
+# To run this on an iOs emulator
     cd ios
 
 comment out the Flipper line (39) in AppDelegate.h
