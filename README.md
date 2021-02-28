@@ -29,3 +29,5 @@ comment out the Flipper line (39) in AppDelegate.h
 
  1. Hook this up to dialogflow (for basic intents)
  2. Setup a db (pref SQL) to track data from intents over time, establishing a better report.
+ 3. Screen: user.js (Holds userinformation, as well as graph for mood, and stats)
+ 4. Screen: bot.js (revamped app.js, has hamburger to switch to user, better stylesheet)
