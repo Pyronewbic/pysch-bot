@@ -6,7 +6,7 @@
 # Install Your Dependencies
     yarn
 
-# To run this on an iOs emulator
+# To run this on an iOs (emulator)
     cd ios
 
 comment out the Flipper line (39) in AppDelegate.h
@@ -14,7 +14,7 @@ comment out the Flipper line (39) in AppDelegate.h
     pod install
     yarn ios
 
-# To run this on an iOs emulator
+# To run this on an android emulator (use AVD)
     yarn android
 
 # Orders of Focus
