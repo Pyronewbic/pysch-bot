@@ -14,6 +14,9 @@ comment out the Flipper line (39) in AppDelegate.h
     pod install
     yarn ios
 
+# To run this on an iOs emulator
+    yarn android
+
 # Orders of Focus
 
  1. Psychosis : Schizophrenic spectrum disorders.
