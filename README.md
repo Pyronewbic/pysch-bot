@@ -27,9 +27,12 @@ comment out the Flipper line (39) in AppDelegate.h
 
 # To do
 
- 1. Hook this up to dialogflow (for basic intents)
- 2. Setup a db (pref SQL) to track data from intents over time, establishing a better report.
- 3. Screen: user.js (Holds userinformation, as well as graph for mood, and stats)
- 4. Screen: bot.js (revamped app.js, has hamburger to switch to user, better stylesheet)
- 5. Screen: login.js (Holds login - oauth2 with google)
- 6. Screen: register.js (gives user access to signup on our servers - backend should have a nice salt+hash)
+ 1. Structure project better (~/app/files ~/app/assets, ~/app/screen, ~/app/routes)
+ 2. Replace Javascript with Typescript (thanks r/programmerhumour)
+ 3. Move stylesheets
+ 4. Hook this up to dialogflow (for basic intents)
+ 5. Setup a db (pref SQL) to track data from intents over time, establishing a better report.
+ 6. Screen: user.ts (Holds userinformation, as well as graph for mood, and stats)
+ 7. Screen: bot.ts (revamped app.js, has hamburger to switch to user, better stylesheet)
+ 8. Screen: login.ts (Holds login - oauth2 with google)
+ 9. Screen: register.ts (gives user access to signup on our servers - backend should have a nice salt+hash)
