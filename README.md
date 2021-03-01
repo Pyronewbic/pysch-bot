@@ -30,7 +30,7 @@ comment out the Flipper line (39) in AppDelegate.h
  1. Structure project better (~/app/files ~/app/assets, ~/app/screen, ~/app/routes)
  2. Replace Javascript with Typescript (thanks r/programmerhumour)
  3. Move stylesheets
- 4. Hook this up to dialogflow (for basic intents)
+ 4. Hook this up to dialogflow (for basic intents) [DONE]
  5. Setup NodeJs server, write routes for sessions.
  6. Setup a db (pref SQL) to track data from intents over time, establishing a better report.
  7. Screen: user.ts (Holds userinformation, as well as graph for mood, and stats)
