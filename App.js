@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
 import { GiftedChat } from 'react-native-gifted-chat';
 import { Dialogflow_V2 } from 'react-native-dialogflow';
+import { DfConfig } from './env'
 
-import { DfConfig } from './env';
-
-const PSYCH_USER = {
+const PSYCH_BOT = {
   _id: 2,
-  name: 'FAQ Bot',
+  name: 'pysch',
   avatar: 'https://i.imgur.com/7k12EPD.png'
-};
+}
 
 class App extends Component {
   state = {
     messages: [
       {
         _id: 1,
-        text: `Hey There - I'm your personal pyschotherapist (alpha).\n\nWhat's up?`,
+        text: `Hey there - I'm your personal psychotherapist (Alpha Build).\n\nWhat's Up?`,
         createdAt: new Date(),
-        user: PSYCH_USER
+        user: PSYCH_BOT
       }
     ]
   };
@@ -33,6 +32,7 @@ class App extends Component {
   }
 
   handleGoogleResponse(result) {
+    console.log(result)
     let text = result.queryResult.fulfillmentMessages[0].text.text[0];
     this.sendBotResponse(text);
   }
@@ -55,7 +55,7 @@ class App extends Component {
       _id: this.state.messages.length + 1,
       text,
       createdAt: new Date(),
-      user: PSYCH_USER
+      user: PSYCH_BOT
     };
 
     this.setState(previousState => ({
